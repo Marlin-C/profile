@@ -1,0 +1,48 @@
+body {
+  background-color: #EEF1FF;
+  color: #D4D925;
+  text-align: center;
+}
+
+h1, h2 {
+  color: #231955;
+}
+
+li{
+  list-style-type: none;
+  text-align: center
+}
+ul{
+  padding: 0px;
+}
+.card {
+  background-color: #628E90;
+  padding: 50px;
+  width: 500px;
+  margin: 25px auto;
+  border-radius: 5px;
+  border: 1px solid #570A57;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+}
+#profile-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
